@@ -1,8 +1,5 @@
 # WEDE-POE-Finale
-A colourful sea-blue photography website for a South African photographer. Built with HTML, CSS and JavaScript.
-
-**Live site:** file:///C:/Users/A%20N%20D%20Y/Documents/Shooter%20Snap/index.html 
-**Repository:** 
+A colourful sea-blue photography website with HTML, CSS and JavaScript. 
 
 ## Pages
 index, about, services, gallery, enquiry, contact, reviews and all are html's
