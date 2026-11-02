@@ -20,5 +20,3 @@ index, about, services, gallery, enquiry, contact, reviews and all are html's
 - Fixed image paths with correctly named files.
 - Replaced hard-coded inline styles with classes in style.css; fixed typos.
 - Changed the pages from blue-only to a sea-blue, coral, sun-yellow and grape palett
-- Google Search Central. SEO starter guide. https://developers.google.com/search/docs
-- W3C. Web Content Accessibility Guidelines (WCAG) 2.1. https://www.w3.org/TR/WCAG21
