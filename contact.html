@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Shooter Snap | Book a Photography Session</title>
+<meta name="description" content="Contact Shooter Snap by phone, WhatsApp, email or the message form. Find us on the map in Rustenburg.">
+<meta name="keywords" content="contact photographer, book photography session, Shooter Snap phone, Rustenburg map">
+<meta name="author" content="Shooter Snap">
+<meta name="robots" content="index, follow">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: https://*.tile.openstreetmap.org https://unpkg.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://unpkg.com; font-src https://fonts.gstatic.com; script-src 'self' https://unpkg.com; connect-src 'self' https://formspree.io; frame-ancestors 'self'">
+<link rel="canonical" href="https://shootersnap.netlify.app/contact.html">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="extras.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="navbar">
+<a class="logo" href="index.html">Shooter<span>Snap</span></a>
+<button class="menu-btn" aria-label="Open menu" aria-expanded="false">☰</button>
+<nav aria-label="Main navigation"><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="gallery.html">Gallery</a><a href="enquiry.html">Enquiry</a><a href="contact.html" class="active" aria-current="page">Contact</a><a href="reviews.html">Reviews</a></nav>
+</header>
+<main id="main" class="bg bg-camera">
+<div class="page-title"><h1>Contact us</h1><p>Book a session or send us a message.</p></div>
+<section class="section two"><div class="info"><h2>Get in touch</h2><p><strong>Phone:</strong> <a href="tel:+27717866950">(+27) 71 786 6950</a></p><p><strong>WhatsApp:</strong> <a href="https://wa.me/27689906645" rel="noopener" target="_blank">(+27) 68 990 6645</a></p><p><strong>Email:</strong> <a href="mailto:shootersnap@gmail.com">shootersnap@gmail.com</a></p><p><strong>Address:</strong> 5112 Sediba Street, Rustenburg, South Africa</p><div id="map" hidden role="region" aria-label="Map showing Shooter Snap in Rustenburg"></div></div>
+<form class="box" id="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" novalidate>
+<div class="row2"><div><label for="name">Your name</label><input id="name" name="name" required autocomplete="name"><span class="err"></span></div>
+<div><label for="email">Your email</label><input id="email" name="email" type="email" required autocomplete="email"><span class="err"></span></div></div>
+<div><label for="phone">Phone</label><input id="phone" name="phone" type="tel" autocomplete="tel"><span class="err"></span></div>
+<div><label for="message">Message</label><textarea id="message" name="message" rows="5" required minlength="10" maxlength="500"></textarea><span class="err"></span><small id="chars" hidden></small></div>
+<button class="btn" type="submit">Send message</button><div id="sent" class="result" hidden aria-live="polite"></div></form></section>
+</main>
+<footer>Company registration<br>26/506736/07 · All rights reserved</footer>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="script.js" defer></script>
+<script src="extras.js" defer></script>
+</body>
+</html>

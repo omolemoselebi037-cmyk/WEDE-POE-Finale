@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Customer Reviews and Ratings | Shooter Snap</title>
+<meta name="description" content="Read ratings and reviews from Shooter Snap clients and add your own.">
+<meta name="keywords" content="photographer reviews, customer ratings, Shooter Snap testimonials, Rustenburg">
+<meta name="author" content="Shooter Snap">
+<meta name="robots" content="index, follow">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: https://*.tile.openstreetmap.org https://unpkg.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://unpkg.com; font-src https://fonts.gstatic.com; script-src 'self' https://unpkg.com; connect-src 'self' https://formspree.io; frame-ancestors 'self'">
+<link rel="canonical" href="https://shootersnap.netlify.app/reviews.html">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="extras.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="navbar">
+<a class="logo" href="index.html">Shooter<span>Snap</span></a>
+<button class="menu-btn" aria-label="Open menu" aria-expanded="false">☰</button>
+<nav aria-label="Main navigation"><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="gallery.html">Gallery</a><a href="enquiry.html">Enquiry</a><a href="contact.html">Contact</a><a href="reviews.html" class="active" aria-current="page">Reviews</a></nav>
+</header>
+<main id="main">
+<div class="page-title"><h1><img class="title-logo" src="images/logo.png.jpg" alt="Shooter Snap logo" width="52" height="52">Ratings and reviews</h1></div>
+<section class="section two"><div><div class="avg" id="avg"></div><div id="review-list"></div></div>
+<form class="box" id="review-form" novalidate><h2>Leave a review</h2>
+<div><label for="rname">Your name</label><input id="rname" required><span class="err"></span></div>
+<div><label for="rstars">Rating</label><select id="rstars"><option value="5">★★★★★</option><option value="4">★★★★</option><option value="3">★★★</option><option value="2">★★</option><option value="1">★</option></select></div>
+<div><label for="rtext">Comment</label><textarea id="rtext" rows="4" required></textarea><span class="err"></span></div>
+<button class="btn" type="submit">Post review</button></form></section>
+</main>
+<footer>Company registration<br>26/506736/07 · All rights reserved</footer>
+<script src="script.js" defer></script>
+<script src="extras.js" defer></script>
+</body>
+</html>

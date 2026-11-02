@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Photography Enquiry and Quote | Shooter Snap</title>
+<meta name="description" content="Ask about a Shooter Snap photography service and get an instant cost estimate and availability check.">
+<meta name="keywords" content="photography quote, book photographer, enquiry, photographer availability, Rustenburg">
+<meta name="author" content="Shooter Snap">
+<meta name="robots" content="index, follow">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: https://*.tile.openstreetmap.org https://unpkg.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://unpkg.com; font-src https://fonts.gstatic.com; script-src 'self' https://unpkg.com; connect-src 'self' https://formspree.io; frame-ancestors 'self'">
+<link rel="canonical" href="https://shootersnap.netlify.app/enquiry.html">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="extras.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="navbar">
+<a class="logo" href="index.html">Shooter<span>Snap</span></a>
+<button class="menu-btn" aria-label="Open menu" aria-expanded="false">☰</button>
+<nav aria-label="Main navigation"><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="gallery.html">Gallery</a><a href="enquiry.html" class="active" aria-current="page">Enquiry</a><a href="contact.html">Contact</a><a href="reviews.html">Reviews</a></nav>
+</header>
+<main id="main" class="bg bg-wedding">
+<div class="page-title"><h1>Enquire and get a quote</h1><p>Fill in the form to see your estimated cost and date availability.</p></div>
+<section class="section"><form class="box" id="enquiry-form" novalidate>
+<div><label for="name">Full name</label><input id="name" name="name" required minlength="2" maxlength="60" autocomplete="name"><span class="err"></span></div>
+<div><label for="email">Email</label><input id="email" name="email" type="email" required autocomplete="email"><span class="err"></span></div>
+<div><label for="phone">Phone number</label><input id="phone" name="phone" type="tel" required placeholder="071 786 6950" pattern="[0-9+()\s-]{10,16}" autocomplete="tel"><span class="err"></span></div>
+<div><label for="service">Service</label><select id="service" name="service" required><option value="">Choose a service</option></select><span class="err"></span></div>
+<div><label for="date">Event date</label><input id="date" name="date" type="date" required><span class="err"></span></div>
+<div><label for="hours">Hours of coverage</label><input id="hours" name="hours" type="number" min="1" max="12" value="2" required><span class="err"></span></div>
+<fieldset class="checks"><legend><strong>Extras</strong></legend><label><input type="checkbox" name="extra" value="800"> Photo album (R800)</label><label><input type="checkbox" name="extra" value="1200"> Second photographer (R1 200)</label><label><input type="checkbox" name="extra" value="600"> Same-day edits (R600)</label></fieldset>
+<button class="btn" type="submit">Get my quote</button>
+<div id="quote" class="result" hidden aria-live="polite"></div></form></section>
+</main>
+<footer>Company registration<br>26/506736/07 · All rights reserved</footer>
+<script src="script.js" defer></script>
+<script src="extras.js" defer></script>
+</body>
+</html>
