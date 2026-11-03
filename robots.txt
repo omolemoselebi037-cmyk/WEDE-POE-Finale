@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /gen.py
+
+Sitemap: https://shootersnap.netlify.app/sitemap.xml
